@@ -1,0 +1,60 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment variables and secret settings
+.env
+*.env
+config/settings/local.py
+config/settings/.env
+
+# Ignore database files
+db.sqlite3
+*.sqlite3
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore virtual environments
+venv/
+env/
+*/.venv/
+
+# Ignore Django migrations cache
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.orig
+
+# Ignore static files generated
+staticfiles/
+static/
+media/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled files and caches
+node_modules/
+npm-debug.log*
+yarn.lock
+
+# Ignore coverage and test reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+nosetests.xml
+coverage.xml
+*.egg-info/
+
+# Ignore Docker files
+docker-compose.override.yml
